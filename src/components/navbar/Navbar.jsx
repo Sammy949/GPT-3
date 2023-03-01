@@ -5,7 +5,9 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  window.onscroll() = () => setToggleMenu(false)
+  window.onscroll() = () => {
+    setToggleMenu(false)
+  }
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
